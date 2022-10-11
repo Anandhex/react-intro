@@ -6,13 +6,13 @@ const InfoGraphic = ({ desc = '', imgUrl = '', reverse = false }) => {
     <div
       className={`flex  ${
         reverse ? 'flex-row-reverse' : ''
-      } justify-center info-graphic`}
+      } justify-center items-center info-graphic`}
     >
       <motion.p
         variants={reverse ? textVariantReverse : textVariant}
         initial={'initial'}
         animate="final"
-        className={`${reverse ? 'text-left' : 'text-right'} w-1/4 mt-3`}
+        className={`${reverse ? 'text-left' : 'text-right'} w-1/3 mt-3`}
       >
         {desc}
       </motion.p>

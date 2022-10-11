@@ -27,12 +27,15 @@ const Header = () => {
           } transition-all shadow-xl min-h-screen z-20 bg-red-50 overflow-hidden`}
         >
           <div className="pt-5 flex items-end w-full ">
-            <a
-              onClick={() => setActive(false)}
+            <button
+              onClick={() => {
+                console.log('called');
+                setActive(false);
+              }}
               className="text-end w-full pr-5 cursor-pointer"
             >
-              X
-            </a>
+              X dsa d sa
+            </button>
           </div>
           <h3 className="ml-5 pt-3">Table of Contents</h3>
           <ul id="toc" className="ml-5 mt-3">
@@ -53,10 +56,10 @@ const Header = () => {
         initial={false}
         animate={active ? 'hidden' : 'visible'}
         variants={buttonVariants}
-        className="fixed top-0 left-0  mt-5 ml-7 rotate-90 text-2xl"
+        className="fixed top-0 left-0   pl-7 w-screen flex bg-white shadow-xl"
         onClick={() => setActive(true)}
       >
-        |||
+        <div className="rotate-90 text-2xl inline-block py-3">|||</div>
       </motion.button>
     </>
   );

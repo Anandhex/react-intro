@@ -94,11 +94,11 @@ const Layout = ({ children, id }) => {
       exit="out"
       variants={pageVariants}
       id={id}
-      className="min-h-screen"
+      className="min-h-screen  pt-7"
     >
       {children}
 
-      <div className="fixed bottom-0 flex justify-center w-full mb-5 items-center">
+      <div className="fixed bottom-0 flex justify-center w-full pb-5 items-center bg-white pt-3">
         <Link to={`/${prevNextLinks[id]?.prev}`}>
           <button className="px-5 py-3 shadow-2xl border rounded-full  bg-red-300 text-white font-bold hover:bg-yellow-200 hover:text-black transition-all">
             &lt;
