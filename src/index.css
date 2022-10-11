@@ -32,3 +32,7 @@ code {
 .desktop-screen {
   border: 1px solid rgb(100, 116, 139);
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

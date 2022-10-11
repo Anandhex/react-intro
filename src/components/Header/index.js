@@ -24,7 +24,7 @@ const Header = () => {
           variants={variants}
           className={`${
             active ? 'w-96' : 'w-0'
-          } transition-all shadow-xl min-h-screen z-20 bg-red-50 overflow-hidden`}
+          } transition-all shadow-md min-h-screen z-20 bg-red-50 overflow-hidden`}
         >
           <div className="pt-5 flex items-end w-full ">
             <button

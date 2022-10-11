@@ -1,11 +1,18 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import { textVariant } from './Avatar';
 
 const DesktopScreen = ({ children }) => {
   return (
-    <div className="desktop-screen ">
+    <motion.div
+      initial={'initial'}
+      animate="final"
+      variants={textVariant}
+      className="desktop-screen "
+    >
       <div className="h-6 bg-slate-500 w-full "></div>
-      <section className="p-5">{children}</section>
-    </div>
+      <section className="">{children}</section>
+    </motion.div>
   );
 };
 

@@ -27,6 +27,8 @@ const JourneyOfWeb = () => {
     <>
       <Layout id={'journeyOfWeb'}>
         <section className="flex flex-col items-center justify-center min-h-screen">
+          <h3 className="text-2xl font-bold pb-12">Journey of Web</h3>
+
           <section className="flex gap-3">
             {webs
               .filter((web) =>
