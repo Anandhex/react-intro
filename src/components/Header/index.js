@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -22,13 +23,13 @@ const Header = () => {
           <h3 className="ml-5 pt-3">Table of Contents</h3>
           <ul id="toc" className="ml-5 mt-3">
             <li key={1}>
-              <a href="#start">Start</a>
+              <Link to={'/start'}>Start</Link>
             </li>
             <li key={2}>
-              <a href="#intro">Speaker</a>
+              <Link to={'/speaker'}>Speaker</Link>
             </li>
-            <li key={2}>
-              <a href="#page1">What is Web?</a>
+            <li key={3}>
+              <Link to={'/web'}>What is Web?</Link>
             </li>
           </ul>
         </aside>
