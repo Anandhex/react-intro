@@ -74,6 +74,17 @@ export const prevNextLinks = {
     label: "Q&A's",
   },
 };
+const pageVariants = {
+  initial: {
+    opacity: 0,
+  },
+  in: {
+    opacity: 1,
+  },
+  out: {
+    opacity: 0,
+  },
+};
 
 const Layout = ({ children, id }) => {
   return (
@@ -81,6 +92,7 @@ const Layout = ({ children, id }) => {
       initial="initial"
       animate="in"
       exit="out"
+      variants={pageVariants}
       transition={{ duration: 3 }}
       id={id}
       className="min-h-screen"
