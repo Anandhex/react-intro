@@ -93,7 +93,6 @@ const Layout = ({ children, id }) => {
       animate="in"
       exit="out"
       variants={pageVariants}
-      transition={{ duration: 3 }}
       id={id}
       className="min-h-screen"
     >
