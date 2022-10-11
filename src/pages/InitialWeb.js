@@ -23,6 +23,7 @@ const InitialWeb = () => {
               first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
               from a line in section 1.10.32
             </section>
+
             <aside className="w-4/12">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
