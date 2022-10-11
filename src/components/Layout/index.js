@@ -38,7 +38,7 @@ export const prevNextLinks = {
     label: 'What is Modern Web?',
   },
   comparison: {
-    prev: 'modrenWeb',
+    prev: 'modernWeb',
     next: 'tacklesModernWeb',
     label: 'Comparison of Differnet Webpages',
   },
