@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 export const prevNextLinks = {
   start: {
@@ -76,7 +77,14 @@ export const prevNextLinks = {
 
 const Layout = ({ children, id }) => {
   return (
-    <section id={id} className="min-h-screen">
+    <motion.section
+      initial="initial"
+      animate="in"
+      exit="out"
+      transition={{ duration: 3 }}
+      id={id}
+      className="min-h-screen"
+    >
       {children}
 
       <div className="fixed bottom-0 flex justify-center w-full mb-5 items-center">
@@ -95,7 +103,7 @@ const Layout = ({ children, id }) => {
           </button>
         </Link>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
