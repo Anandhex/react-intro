@@ -38,7 +38,10 @@ const Header = () => {
           <ul id="toc" className="ml-5 mt-3">
             {Object.keys(prevNextLinks).map((key) => (
               <li key={key}>
-                <Link to={key === 'start' ? '/' : key}>
+                <Link
+                  to={key === 'start' ? '/' : key}
+                  onClick={() => setActive(false)}
+                >
                   {prevNextLinks[key].label}
                 </Link>
               </li>
