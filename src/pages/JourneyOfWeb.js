@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from '../components/Card';
 import Layout from '../components/Layout';
 
 const JourneyOfWeb = () => {
@@ -6,6 +7,7 @@ const JourneyOfWeb = () => {
     <>
       <Layout id={'journeyOfWeb'}>
         <div>JourneyOfWeb</div>
+        <Card id="1" subtitle={'Subtitle'} title={'title'} />
       </Layout>
     </>
   );
