@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed top-0 left-0  ">
+      <header className="fixed top-0 left-0  z-20">
         <motion.aside
           initial={false}
           animate={active ? 'visible' : 'hidden'}
@@ -29,10 +29,9 @@ const Header = () => {
           <div className="pt-5 flex items-end w-full ">
             <button
               onClick={() => {
-                console.log('called');
                 setActive(false);
               }}
-              className="text-end w-full pr-5 cursor-pointer"
+              className="text-end w-full pr-5 cursor-pointer inline-block"
             >
               X dsa d sa
             </button>

@@ -100,7 +100,7 @@ const Layout = ({ children, id }) => {
 
       <div className="fixed bottom-0 flex justify-center w-full pb-5 items-center bg-white pt-3">
         <Link to={`/${prevNextLinks[id]?.prev}`}>
-          <button className="px-5 py-3 shadow-2xl border rounded-full  bg-red-300 text-white font-bold hover:bg-yellow-200 hover:text-black transition-all">
+          <button className="px-5 py-3 shadow-2xl border rounded-full  bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all">
             &lt;
           </button>
         </Link>
@@ -109,7 +109,7 @@ const Layout = ({ children, id }) => {
           {Object.keys(prevNextLinks).length}
         </div>
         <Link to={`/${prevNextLinks[id]?.next}`}>
-          <button className="px-5 py-3 shadow-2xl border rounded-full bg-red-300 text-white font-bold hover:bg-yellow-200 hover:text-black transition-all">
+          <button className="px-5 py-3 shadow-2xl border rounded-full bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all">
             &gt;
           </button>
         </Link>

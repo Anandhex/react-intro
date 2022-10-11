@@ -1,24 +1,23 @@
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimateSharedLayout, motion } from 'framer-motion';
 import React, { useState } from 'react';
 
-const Card = ({ id, subtitle, title }) => {
-  const [selectedId, setSelectedId] = useState(null);
+const Card = ({ id = '', subtitle = '', title = '' }) => {
+  const [isOpen, setOpen] = useState(false);
   return (
-    <div>
-      <motion.div layoutId={id} onClick={() => setSelectedId(id)}>
-        <motion.h5>{subtitle}</motion.h5>
-        <motion.h2>{title}</motion.h2>
-      </motion.div>
-      <AnimatePresence>
-        {selectedId && (
-          <motion.div layoutId={selectedId}>
-            <motion.h5>{subtitle}</motion.h5>
-            <motion.h2>{title}</motion.h2>
-            <motion.button onClick={() => setSelectedId(null)} />
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </div>
+    <motion.div
+      className="card w-1/3 shadow-2xl rounded-sm  cursor-pointer"
+      layout
+      onClick={() => setOpen((open) => !open)}
+    >
+      <motion.img
+        src="https://picsum.photos/seed/picsum/200/200"
+        className="w-full rounded-t-sm"
+      />
+      <motion.h2 layoutId={id} className="p-3" layout="position">
+        {title}
+      </motion.h2>
+      {isOpen && <motion.p className="p-3">{subtitle}</motion.p>}
+    </motion.div>
   );
 };
 
