@@ -1,31 +1,23 @@
-import {
-  createBrowserRouter,
-  Route,
-  Router,
-  RouterProvider,
-  Routes,
-} from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 
-import Header from './components/Header';
 import Speaker from './pages/Speaker';
-
 import Root from './pages/Root';
 import Start from './pages/Start';
 import WhatIsWeb from './pages/WhatIsWeb';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Root />,
     children: [
-      { path: "/", element: <Start />, index: true },
+      { path: '/', element: <Start />, index: true },
       {
-        path: "/speaker",
+        path: '/speaker',
         element: <Speaker />,
       },
       {
-        path: "/web",
+        path: '/web',
         element: <WhatIsWeb />,
       },
     ],
