@@ -18,6 +18,14 @@ const router = createBrowserRouter([
     path: '/',
     element: <Start />,
   },
+  {
+    path: '/speaker',
+    element: <Speaker />,
+  },
+  {
+    path: '/web',
+    element: <WhatIsWeb />,
+  },
 ]);
 
 function App() {

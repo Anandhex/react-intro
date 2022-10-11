@@ -13,7 +13,7 @@ const Start = () => {
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book.
         </p>
-        <Link label="Let's start" to={'/speaker'} />
+        <Link to={'/speaker'}>Let's begin</Link>
       </section>
     </Layout>
   );
