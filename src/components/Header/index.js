@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { prevNextLinks } from '../Layout';
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -9,7 +10,7 @@ const Header = () => {
       <header className="fixed top-0 left-0  ">
         <aside
           className={`${
-            active ? "w-96" : "w-0"
+            active ? 'w-96' : 'w-0'
           } transition-all shadow-xl min-h-screen z-20 bg-red-50 overflow-hidden`}
         >
           <div className="pt-5 flex items-end w-full ">
@@ -22,15 +23,13 @@ const Header = () => {
           </div>
           <h3 className="ml-5 pt-3">Table of Contents</h3>
           <ul id="toc" className="ml-5 mt-3">
-            <li key={1}>
-              <Link to={"/"}>Start</Link>
-            </li>
-            <li key={2}>
-              <Link to={"/speaker"}>Speaker</Link>
-            </li>
-            <li key={3}>
-              <Link to={"/web"}>What is Web?</Link>
-            </li>
+            {Object.keys(prevNextLinks).map((key) => (
+              <li key={key}>
+                <Link to={key === 'start' ? '/' : key}>
+                  {prevNextLinks[key].label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </aside>
       </header>
@@ -42,7 +41,7 @@ const Header = () => {
           |||
         </button>
       ) : (
-        ""
+        ''
       )}
     </>
   );

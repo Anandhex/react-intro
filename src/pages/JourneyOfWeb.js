@@ -1,10 +1,10 @@
-import React from "react";
-import Layout from "../components/Layout";
+import React from 'react';
+import Layout from '../components/Layout';
 
 const JourneyOfWeb = () => {
   return (
     <>
-      <Layout id={"journeyOfWeb"}>
+      <Layout id={'journeyOfWeb'}>
         <div>JourneyOfWeb</div>
       </Layout>
     </>

@@ -1,10 +1,10 @@
-import React from "react";
-import Layout from "../components/Layout";
+import React from 'react';
+import Layout from '../components/Layout';
 
 const ComparisonWeb = () => {
   return (
     <>
-      <Layout id={"comparison"}>
+      <Layout id={'comparison'}>
         <div>ComparisonWeb</div>;
       </Layout>
     </>

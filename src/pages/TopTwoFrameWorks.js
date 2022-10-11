@@ -1,10 +1,10 @@
-import React from "react";
-import Layout from "../components/Layout";
+import React from 'react';
+import Layout from '../components/Layout';
 
 const TopTwoFrameWorks = () => {
   return (
     <>
-      <Layout id={"frameWorks"}>
+      <Layout id={'frameWorks'}>
         <div>TopTwoFrameWorks</div>;
       </Layout>
     </>

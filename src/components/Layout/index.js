@@ -1,18 +1,76 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const prevNextLinks = {
+export const prevNextLinks = {
   start: {
     prev: '',
     next: 'speaker',
+    label: 'Start!',
   },
   speaker: {
     prev: '',
     next: 'web',
+    label: 'Speaker',
   },
   web: {
     prev: 'speaker',
+    next: 'journeyOfWeb',
+    label: 'What is Web?',
+  },
+  journeyOfWeb: {
+    prev: 'web',
+    next: 'initialWeb',
+    label: 'Journey of Web',
+  },
+  initialWeb: {
+    prev: 'comparison',
+    next: 'intermediateWeb',
+    label: 'What is Initial Web',
+  },
+  intermediateWeb: {
+    prev: 'initialWeb',
+    next: 'modernWeb',
+    label: 'What is Intermediate Web',
+  },
+  modernWeb: {
+    prev: 'intermediateWeb',
+    next: 'comparison',
+    label: 'What is Modern Web?',
+  },
+  comparison: {
+    prev: 'modrenWeb',
+    next: 'tacklesModernWeb',
+    label: 'Comparison of Differnet Webpages',
+  },
+  tacklesModernWeb: {
+    prev: 'comparison',
+    next: 'timeLine',
+    label: 'How Modern Web handles Web?',
+  },
+  timeLine: {
+    prev: 'tacklesModernWeb',
+    next: 'frameWorks',
+    label: 'Framework Timeline',
+  },
+  frameWorks: {
+    prev: 'timeLine',
+    next: 'reactDeepDive',
+    label: 'Comparison of Frameworks',
+  },
+  reactDeepDive: {
+    prev: 'frameWorks',
+    next: 'genericCode',
+    label: 'React Deep Dive',
+  },
+  genericCode: {
+    prev: 'reactDeepDive',
+    next: 'qa',
+    label: 'How to Code in React',
+  },
+  qa: {
+    prev: 'qa',
     next: '',
+    label: "Q&A's",
   },
 };
 

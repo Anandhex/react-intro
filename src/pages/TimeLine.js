@@ -1,10 +1,10 @@
-import React from "react";
-import Layout from "../components/Layout";
+import React from 'react';
+import Layout from '../components/Layout';
 
 const TimeLine = () => {
   return (
     <>
-      <Layout id={"timeLine"}>
+      <Layout id={'timeLine'}>
         <div>TimeLine</div>;
       </Layout>
     </>
