@@ -10,31 +10,32 @@ import './App.css';
 import Header from './components/Header';
 import Speaker from './pages/Speaker';
 
+import Root from './pages/Root';
 import Start from './pages/Start';
 import WhatIsWeb from './pages/WhatIsWeb';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Start />,
-  },
-  {
-    path: '/speaker',
-    element: <Speaker />,
-  },
-  {
-    path: '/web',
-    element: <WhatIsWeb />,
+    element: <Root />,
+    children: [
+      { path: '/start', element: <Start />, index: true },
+      {
+        path: '/speaker',
+        element: <Speaker />,
+      },
+      {
+        path: '/web',
+        element: <WhatIsWeb />,
+      },
+    ],
   },
 ]);
 
 function App() {
   return (
     <>
-      <Header />
-      <main>
-        <RouterProvider router={router} />
-      </main>
+      <RouterProvider router={router} />
     </>
   );
 }

@@ -13,7 +13,9 @@ const Start = () => {
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book.
         </p>
-        <Link to={'/speaker'}>Let's begin</Link>
+        <Link className="rounded-full px-3 py-1 border" to={'/speaker'}>
+          Let's begin
+        </Link>
       </section>
     </Layout>
   );

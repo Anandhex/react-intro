@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
           </div>
           <h3 className="ml-5 pt-3">Table of Contents</h3>
           <ul id="toc" className="ml-5 mt-3">
-            {/* <li key={1}>
+            <li key={1}>
               <Link to={'/start'}>Start</Link>
             </li>
             <li key={2}>
@@ -30,7 +30,7 @@ const Header = () => {
             </li>
             <li key={3}>
               <Link to={'/web'}>What is Web?</Link>
-            </li> */}
+            </li>
           </ul>
         </aside>
       </header>
