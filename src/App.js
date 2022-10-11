@@ -16,16 +16,16 @@ import WhatIsWeb from './pages/WhatIsWeb';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Root />,
     children: [
-      { path: '/start', element: <Start />, index: true },
+      { path: "/", element: <Start />, index: true },
       {
-        path: '/speaker',
+        path: "/speaker",
         element: <Speaker />,
       },
       {
-        path: '/web',
+        path: "/web",
         element: <WhatIsWeb />,
       },
     ],
