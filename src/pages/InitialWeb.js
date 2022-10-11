@@ -1,7 +1,14 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 const InitialWeb = () => {
-  return <div>InitialWeb</div>;
+  return (
+    <>
+      <Layout id={"initialWeb"}>
+        <div>InitialWeb</div>;
+      </Layout>
+    </>
+  );
 };
 
 export default InitialWeb;

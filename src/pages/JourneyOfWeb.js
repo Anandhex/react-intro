@@ -1,7 +1,14 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 const JourneyOfWeb = () => {
-  return <div>JourneyOfWeb</div>;
+  return (
+    <>
+      <Layout id={"journeyOfWeb"}>
+        <div>JourneyOfWeb</div>
+      </Layout>
+    </>
+  );
 };
 
 export default JourneyOfWeb;
