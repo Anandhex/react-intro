@@ -1,37 +1,46 @@
-import { AnimatePresence } from 'framer-motion';
-import React from 'react';
+import React, { useState } from 'react';
 import Card from '../components/Card';
 import Layout from '../components/Layout';
-
+const webs = [
+  {
+    id: '1',
+    title: 'Initial Web',
+    subtitle:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ea ducimus, ipsa expedita voluptate, ab aut explicabo fuga numquam quis suscipit sint eius provident id corporis cupiditate dolore ex perspiciatis?',
+  },
+  {
+    id: '2',
+    title: 'Intermediate Web',
+    subtitle:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ea ducimus, ipsa expedita voluptate, ab aut explicabo fuga numquam quis suscipit sint eius provident id corporis cupiditate dolore ex perspiciatis?',
+  },
+  {
+    id: '3',
+    title: 'Modren Web',
+    subtitle:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ea ducimus, ipsa expedita voluptate, ab aut explicabo fuga numquam quis suscipit sint eius provident id corporis cupiditate dolore ex perspiciatis?',
+  },
+];
 const JourneyOfWeb = () => {
+  const [selectedCard, setSelectedCard] = useState(null);
   return (
     <>
       <Layout id={'journeyOfWeb'}>
         <section className="flex flex-col items-center justify-center min-h-screen">
           <section className="flex gap-3">
-            <AnimatePresence>
-              <Card
-                id="1"
-                subtitle={
-                  'Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for "lorem ipsum" will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident'
-                }
-                title={'Initial Web'}
-              />
-              <Card
-                id="2"
-                subtitle={
-                  'Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for "lorem ipsum" will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident'
-                }
-                title={'Intermediate Web'}
-              />
-              <Card
-                id="3"
-                subtitle={
-                  'Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for "lorem ipsum" will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident'
-                }
-                title={'Modren Web'}
-              />
-            </AnimatePresence>
+            {webs
+              .filter((web) =>
+                selectedCard ? (selectedCard === web.id ? web : false) : web
+              )
+              .map((web) => (
+                <Card
+                  key={web.id}
+                  id={web.id}
+                  title={web.title}
+                  subtitle={web?.subtitle}
+                  setSelectedCard={setSelectedCard}
+                />
+              ))}
           </section>
         </section>
       </Layout>

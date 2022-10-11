@@ -33,7 +33,7 @@ const Header = () => {
               }}
               className="text-end w-full pr-5 cursor-pointer inline-block"
             >
-              X dsa d sa
+              X
             </button>
           </div>
           <h3 className="ml-5 pt-3">Table of Contents</h3>
@@ -51,15 +51,19 @@ const Header = () => {
           </ul>
         </motion.aside>
       </header>
-      <motion.button
+      <motion.div
         initial={false}
         animate={active ? 'hidden' : 'visible'}
         variants={buttonVariants}
-        className="fixed top-0 left-0   pl-7 w-screen flex bg-white shadow-xl"
-        onClick={() => setActive(true)}
+        className="fixed top-0 left-0 pl-7 w-screen flex bg-white shadow-xl"
       >
-        <div className="rotate-90 text-2xl inline-block py-3">|||</div>
-      </motion.button>
+        <button
+          onClick={() => setActive(true)}
+          className="rotate-90 text-2xl inline-block py-3"
+        >
+          |||
+        </button>
+      </motion.div>
     </>
   );
 };
