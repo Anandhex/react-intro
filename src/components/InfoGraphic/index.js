@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { motion } from 'framer-motion';
+import { imageVariant, textVariant, textVariantReverse } from '../Avatar';
 const InfoGraphic = ({ desc = '', imgUrl = '', reverse = false }) => {
   return (
     <div
@@ -7,11 +8,21 @@ const InfoGraphic = ({ desc = '', imgUrl = '', reverse = false }) => {
         reverse ? 'flex-row-reverse' : ''
       } justify-center info-graphic`}
     >
-      <p className={`${reverse ? 'text-left' : 'text-right'} w-1/4 mt-3`}>
+      <motion.p
+        variants={reverse ? textVariantReverse : textVariant}
+        initial={'initial'}
+        animate="final"
+        className={`${reverse ? 'text-left' : 'text-right'} w-1/4 mt-3`}
+      >
         {desc}
-      </p>
-      <img
+      </motion.p>
+      <motion.img
+        variants={imageVariant}
+        initial="initial"
+        animate="final"
         src={imgUrl}
+        height={200}
+        width={200}
         alt="info-1"
         className={`rounded-full ${reverse ? 'mr-7' : 'ml-7'}`}
       />
