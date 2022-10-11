@@ -23,7 +23,7 @@ export const prevNextLinks = {
     label: 'Journey of Web',
   },
   initialWeb: {
-    prev: 'comparison',
+    prev: 'journeyOfWeb',
     next: 'intermediateWeb',
     label: 'What is Initial Web',
   },
@@ -68,7 +68,7 @@ export const prevNextLinks = {
     label: 'How to Code in React',
   },
   qa: {
-    prev: 'qa',
+    prev: 'genericCode',
     next: '',
     label: "Q&A's",
   },

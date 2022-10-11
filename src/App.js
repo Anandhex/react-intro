@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       { path: '/journeyOfWeb', element: <JourneyOfWeb /> },
       { path: '/initialWeb', element: <InitialWeb /> },
       { path: '/intermediateWeb', element: <IntermediateWeb /> },
-      { path: '/modernWeb', element: <ModernWeb /> },
+      { path: '/modrenWeb', element: <ModernWeb /> },
       { path: '/comparison', element: <ComparisonWeb /> },
       { path: '/tacklesModernWeb', element: <TacklesModernWeb /> },
       { path: '/timeLine', element: <TimeLine /> },
