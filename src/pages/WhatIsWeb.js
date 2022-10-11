@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 const WhatIsWeb = () => {
   return (
-    <Layout id="page1">
+    <Layout id="web">
       <div className="flex flex-col items-center justify-center min-h-screen">
         <h3 className="text-2xl font-bold">What is Web?</h3>
         <InfoGraphic
