@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import arrow from '../../assets/svgs/arrow.svg';
 
@@ -88,6 +88,7 @@ const pageVariants = {
 };
 
 const Layout = ({ children, id }) => {
+  const navigate = useNavigate();
   return (
     <motion.section
       initial="initial"
@@ -99,20 +100,22 @@ const Layout = ({ children, id }) => {
     >
       {children}
 
-      <Link to={`/${prevNextLinks[id]?.prev}`}>
-        <button className="px-5 py-4 shadow-2xl  rounded-full  bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all">
-          <img src={arrow} alt="left" />
-        </button>
-      </Link>
+      <button
+        onClick={() => navigate(`/${prevNextLinks[id]?.prev}`)}
+        className="px-5 py-4 shadow-lg mb-4  fixed bottom-0 left-[45%]  rounded-full  mr-3 bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all"
+      >
+        <img src={arrow} alt="left" />
+      </button>
       {/* <div className="mx-5 font-bold">
           {Object.keys(prevNextLinks).findIndex((key) => key === id) + 1}/
           {Object.keys(prevNextLinks).length}
         </div> */}
-      <Link to={`/${prevNextLinks[id]?.next}`}>
-        <button className="px-5 py-4 shadow-2xl  rounded-full bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all">
-          <img src={arrow} alt="right" className="rotate-180" />
-        </button>
-      </Link>
+      <button
+        onClick={() => navigate(`/${prevNextLinks[id]?.next}`)}
+        className="px-5 py-4 mb-4 shadow-lg fixed bottom-0 left-[50%] rounded-full bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all"
+      >
+        <img src={arrow} alt="right" className="rotate-180" />
+      </button>
     </motion.section>
   );
 };
