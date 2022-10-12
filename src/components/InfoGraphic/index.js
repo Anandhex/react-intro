@@ -27,7 +27,7 @@ const InfoGraphic = ({
           animate="final"
           className={`${reverse ? 'text-left' : 'text-right'} `}
         >
-          {desc}
+          <div dangerouslySetInnerHTML={{ __html: desc }}></div>
         </motion.p>
       </div>
       <motion.img
