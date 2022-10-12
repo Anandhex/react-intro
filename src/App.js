@@ -16,6 +16,7 @@ import TopTwoFrameWorks from './pages/TopTwoFrameWorks';
 import ReactDeepDive from './pages/ReactDeepDive';
 import ReactInGeneralWithCode from './pages/ReactInGeneralWithCode';
 import QA from './pages/QA';
+import Feedback from './pages/Feedback';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,7 @@ const router = createBrowserRouter([
       { path: '/reactDeepDive', element: <ReactDeepDive /> },
       { path: '/genericCode', element: <ReactInGeneralWithCode /> },
       { path: '/qa', element: <QA /> },
+      { path: '/feedback', element: <Feedback /> },
     ],
   },
 ]);

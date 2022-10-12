@@ -5,7 +5,7 @@ import arrow from '../../assets/svgs/arrow.svg';
 
 export const prevNextLinks = {
   start: {
-    prev: 'qa',
+    prev: 'feedback',
     next: 'speaker',
     label: 'Start!',
   },
@@ -66,8 +66,13 @@ export const prevNextLinks = {
   },
   qa: {
     prev: 'genericCode',
-    next: '',
+    next: 'feedback',
     label: "Q&A's",
+  },
+  feedback: {
+    prev: 'qa',
+    next: '',
+    label: 'Feedback?',
   },
 };
 const pageVariants = {
