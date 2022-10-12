@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { prevNextLinks } from '../Layout';
 
 import { motion } from 'framer-motion';
-
+import hamburger from '../../assets/pngs/more.png';
 const variants = {
   visible: { opacity: 1, width: '24rem' },
   hidden: { opacity: 0, width: '0px' },
@@ -51,19 +51,15 @@ const Header = () => {
           </ul>
         </motion.aside>
       </header>
-      <motion.div
+      <motion.button
         initial={false}
         animate={active ? 'hidden' : 'visible'}
         variants={buttonVariants}
-        className="fixed top-0 left-0 pl-7 w-screen flex bg-white shadow-xl"
+        className="fixed top-5 left-5  rounded-full flex items-center justify-center bg-white shadow-lg   px-3 py-2 text-center"
+        onClick={() => setActive(true)}
       >
-        <button
-          onClick={() => setActive(true)}
-          className="rotate-90 text-2xl inline-block py-3"
-        >
-          |||
-        </button>
-      </motion.div>
+        <img src={hamburger} alt="menu" width={24} />
+      </motion.button>
     </>
   );
 };

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Card from '../components/Card';
 import Layout from '../components/Layout';
+import right from '../assets/pngs/right.png';
 const webs = [
   {
     id: '1',

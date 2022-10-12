@@ -5,8 +5,8 @@ import Layout from '../components/Layout';
 const WhatIsWeb = () => {
   return (
     <Layout id="web">
-      <div className="flex flex-col items-center justify-center min-h-screen">
-        <h3 className="text-2xl font-bold">What is Web?</h3>
+      <section className="grid place-content-center h-screen">
+        <h3 className="text-2xl font-bold text-center">What is Web?</h3>
         <InfoGraphic
           key={1}
           imgUrl={'https://picsum.photos/id/237/200'}
@@ -14,6 +14,9 @@ const WhatIsWeb = () => {
             'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages'
           }
         />
+      </section>
+      <section className="grid place-content-center h-screen">
+        <h3 className="text-2xl font-bold text-center">What is Document?</h3>
         <InfoGraphic
           key={2}
           imgUrl={'https://picsum.photos/id/227/200'}
@@ -22,7 +25,7 @@ const WhatIsWeb = () => {
             'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages'
           }
         />
-      </div>
+      </section>
     </Layout>
   );
 };

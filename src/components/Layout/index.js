@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import arrow from '../../assets/svgs/arrow.svg';
 
 export const prevNextLinks = {
   start: {
@@ -94,26 +95,24 @@ const Layout = ({ children, id }) => {
       exit="out"
       variants={pageVariants}
       id={id}
-      className="min-h-screen  pt-7"
+      className={`min-h-screen `}
     >
       {children}
 
-      <div className="fixed bottom-0 flex justify-center w-full pb-5 items-center bg-white pt-3">
-        <Link to={`/${prevNextLinks[id]?.prev}`}>
-          <button className="px-5 py-3 shadow-2xl border rounded-full  bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all">
-            &lt;
-          </button>
-        </Link>
-        <div className="mx-5 font-bold">
+      <Link to={`/${prevNextLinks[id]?.prev}`}>
+        <button className="px-5 py-4 shadow-2xl  rounded-full  bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all">
+          <img src={arrow} alt="left" />
+        </button>
+      </Link>
+      {/* <div className="mx-5 font-bold">
           {Object.keys(prevNextLinks).findIndex((key) => key === id) + 1}/
           {Object.keys(prevNextLinks).length}
-        </div>
-        <Link to={`/${prevNextLinks[id]?.next}`}>
-          <button className="px-5 py-3 shadow-2xl border rounded-full bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all">
-            &gt;
-          </button>
-        </Link>
-      </div>
+        </div> */}
+      <Link to={`/${prevNextLinks[id]?.next}`}>
+        <button className="px-5 py-4 shadow-2xl  rounded-full bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all">
+          <img src={arrow} alt="right" className="rotate-180" />
+        </button>
+      </Link>
     </motion.section>
   );
 };
