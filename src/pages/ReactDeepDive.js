@@ -17,7 +17,7 @@ const ReactDeepDive = () => {
           <h3 className="text-2xl font-bold mb-5">React Deep Dive</h3>
           <ul>
             {list.map((item, idx) => (
-              <li className="list-disc" key={idx}>
+              <li className="mt-4 breadcrumbs__item" key={idx}>
                 {item}
               </li>
             ))}
