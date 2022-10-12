@@ -10,17 +10,14 @@ const TacklesModernWeb = () => {
           <h3 className="text-4xl font-bold mb-5">
             How did Web in general tried to handle this Issues?
           </h3>
-          <iframe
-            src="https://giphy.com/embed/xUOxeZc41DVT2l9laU"
+          <img
+            src="https://media4.giphy.com/media/xUOxeZc41DVT2l9laU/giphy.gif?cid=790b76112a9181d894bd09f9c58c3c321c264b13e3bd0ef9&rid=giphy.gif&ct=g"
             width="480"
             height="271"
             frameBorder="0"
             className="giphy-embed mx-auto "
             allowFullScreen
-          ></iframe>
-          <p>
-            <a href="https://giphy.com/gifs/curbyourenthusiasm-season-9-episode-6-xUOxeZc41DVT2l9laU"></a>
-          </p>
+          />
         </section>
         <section className="snap grid place-content-center bg-slate-400">
           <div className="flex gap-3 items-center">
@@ -35,25 +32,21 @@ const TacklesModernWeb = () => {
               <ul className="list-disc pl-5">
                 <li className="text-xl">Pollyfills</li>
                 <li className="text-xl">Libraries</li>
-                <li className="text-xl">Frameworks</li>
+                <li className="text-xl font-bold">Frameworks</li>
                 <li className="text-xl">Global Standards</li>
                 <li className="text-xl">Javascript</li>
                 <li className="text-xl">Typescript</li>
                 <li className="text-xl">& Many More.....</li>
               </ul>
             </div>
-            <iframe
-              src="https://giphy.com/embed/gJhJEGkckEnIkqwOCa"
+            <img
+              src="https://media1.giphy.com/media/gJhJEGkckEnIkqwOCa/giphy.gif?cid=790b76117d024b3b72adb3d347872ed5581e702a831ecec8&rid=giphy.gif&ct=g"
               width="480"
               height="480"
               frameBorder="0"
               class="giphy-embed"
               allowFullScreen
-            ></iframe>
-
-            <p>
-              <a href="https://giphy.com/gifs/cbc-comedy-105-cbc-gem-gJhJEGkckEnIkqwOCa"></a>
-            </p>
+            />
           </div>
         </section>
         <section className="snap grid place-content-center bg-slate-200">
