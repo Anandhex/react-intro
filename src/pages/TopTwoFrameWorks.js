@@ -76,6 +76,19 @@ const TopTwoFrameWorks = () => {
             width={400}
           />
         </section>
+        <section className="snap grid place-content-center bg-slate-400">
+          <h3 className="text-4xl text-center">
+            Before addressing the confusion <br />
+            <span className="font-bold">Some honrable mentions</span>
+          </h3>
+
+          <img
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--npBLepep--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9kvv556myqc1vc3b5tr2.png"
+            alt="confused"
+            className="mx-auto mt-7"
+            width={500}
+          />
+        </section>
       </Layout>
     </>
   );
