@@ -5,7 +5,7 @@ import arrow from '../../assets/svgs/arrow.svg';
 
 export const prevNextLinks = {
   start: {
-    prev: '',
+    prev: 'qa',
     next: 'speaker',
     label: 'Start!',
   },

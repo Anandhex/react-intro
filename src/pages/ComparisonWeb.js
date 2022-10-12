@@ -6,7 +6,7 @@ const ComparisonWeb = () => {
     <>
       <Layout id={'comparison'} background="bg-slate-200">
         <section className="grid place-content-center  min-h-screen  pt-7 pb-32 px-12">
-          <h3 className="text-2xl font-bold mb-5 text-center">
+          <h3 className="text-4xl font-bold mb-5 text-center">
             Comparison Web
           </h3>
           <div className="flex">

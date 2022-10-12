@@ -5,7 +5,7 @@ const Card = ({ id = '', subtitle = '', title = '', setSelectedCard }) => {
   const [isOpen, setOpen] = useState(false);
   return (
     <motion.div
-      className="card w-1/3 shadow-2xl rounded-md  cursor-pointer"
+      className="card w-1/3 shadow-2xl rounded-md  cursor-pointer bg-white"
       layout
       animate={
         isOpen

@@ -7,8 +7,8 @@ const Speaker = () => {
   return (
     <Layout id="speaker" background={'bg-slate-200'}>
       <div className="flex flex-col items-center justify-center min-h-screen">
-        <h3 className="text-2xl font-bold">Before we start</h3>
-        <h4 className="text-xl">Who are we?</h4>
+        <h3 className="text-4xl mb-3 font-bold">Before we start</h3>
+        <h4 className="text-xl mb-3">Who are we?</h4>
         <div className="flex mt-5 justify-between w-1/2">
           <Avatar
             key={1}
