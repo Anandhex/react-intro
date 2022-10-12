@@ -13,11 +13,13 @@ const IntermediateWeb = () => {
           <div className="flex pt-8 px-12 ">
             <section className="w-8/12  mr-3 ">
               <DesktopScreen>
-                <iframe
-                  src="https://web.archive.org/web/20120731074503/https://signup.netflix.com/"
-                  className="w-full"
-                  height={'800px'}
-                />
+                <div className="iframe-holder">
+                  <iframe
+                    src="https://web.archive.org/web/20120731074503/https://signup.netflix.com/"
+                    className="w-full"
+                    height={'800px'}
+                  />
+                </div>
               </DesktopScreen>
               <h3 className="text-2xl font-bold mt-3">
                 Few Examples for the website of Intermediate Web

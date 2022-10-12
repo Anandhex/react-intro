@@ -13,11 +13,13 @@ const InitialWeb = () => {
           <div className="flex pt-8 px-12 ">
             <section className="w-8/12  mr-3 ">
               <DesktopScreen>
-                <iframe
-                  src="https://web.archive.org/web/20000229183439/http:/www.cl.cam.ac.uk/coffee/coffee.html"
-                  className="w-full"
-                  height={'800px'}
-                />
+                <div className="iframe-holder">
+                  <iframe
+                    src="https://web.archive.org/web/19961227203847/http://ubl.com/"
+                    className="w-full"
+                    height={'800px'}
+                  />
+                </div>
               </DesktopScreen>
               <h3 className="text-2xl font-bold mt-3">
                 Few Examples for the website of Initial Web

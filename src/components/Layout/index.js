@@ -98,8 +98,11 @@ const Layout = ({ children, id, background = '' }) => {
       id={id}
       className={`min-h-screen snap-container ${background}`}
     >
-      <span className="flex justify-end text-4xl pr-12 top-4 font-bold absolute right-0">
-        {Object.keys(prevNextLinks).findIndex((key) => key === id) + 1}/
+      <span className="flex justify-end items-end  pr-12 top-4 font-bold absolute right-0">
+        <span className="text-4xl">
+          {Object.keys(prevNextLinks).findIndex((key) => key === id) + 1}
+        </span>
+        <span className="text-2xl">/</span>
         {Object.keys(prevNextLinks).length}
       </span>
       {children}

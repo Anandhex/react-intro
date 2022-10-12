@@ -8,7 +8,6 @@ export const imageVariant = {
     rotate: '0deg',
   },
 };
-
 export const textVariant = {
   initial: {
     x: -500,

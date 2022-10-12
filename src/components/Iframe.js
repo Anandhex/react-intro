@@ -10,14 +10,15 @@ const Iframe = ({ link = '', title = '' }) => {
       >
         {title}
       </a>
-
-      <iframe
-        key={2}
-        className="border bg-white"
-        src={link}
-        width={300}
-        height={300}
-      ></iframe>
+      <div className="iframe-holder">
+        <iframe
+          key={2}
+          className="border bg-white"
+          src={link}
+          width={300}
+          height={300}
+        ></iframe>
+      </div>
     </div>
   );
 };
