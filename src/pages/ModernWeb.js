@@ -9,7 +9,7 @@ const ModernWeb = () => {
     <>
       <Layout id={'modernWeb'} background="bg-slate-200">
         <section className="flex items-center justify-center flex-col min-h-screen pb-40">
-          <h3 className="text-4xl font-bold pt-12 ">Modren Web</h3>
+          <h3 className="text-4xl font-bold pt-12 ">Modern Web</h3>
           <div className="flex pt-8 px-12 ">
             <section className="w-8/12  mr-3 ">
               <DesktopScreen>
@@ -49,17 +49,14 @@ const ModernWeb = () => {
                 How do you feel about the website?
               </h3>
               <div className="flex justify-center mt-4">
-                <iframe
-                  src="https://giphy.com/embed/Akko3uhtzLknUwa8uV"
+                <img
+                  src="https://media3.giphy.com/media/Akko3uhtzLknUwa8uV/giphy.gif?cid=790b7611cc9e059c073988721adce1bfcb561e358ee193f2&rid=giphy.gif&ct=g"
                   width="480"
                   height="343"
                   frameBorder="0"
                   class="giphy-embed"
                   allowFullScreen
-                ></iframe>
-                <p>
-                  <a href="https://giphy.com/gifs/fallontonight-jimmy-fallon-tonight-show-Akko3uhtzLknUwa8uV"></a>
-                </p>
+                />
               </div>
               <p className="mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

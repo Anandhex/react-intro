@@ -9,7 +9,7 @@ const IntermediateWeb = () => {
     <>
       <Layout id={'intermediateWeb'} background="bg-slate-200">
         <section className="flex items-center justify-center flex-col min-h-screen pb-40">
-          <h3 className="text-4xl font-bold pt-12 ">Intermediate Web</h3>
+          <h3 className="text-4xl font-bold pt-12 ">Early 2010's</h3>
           <div className="flex pt-8 px-12 ">
             <section className="w-8/12  mr-3 ">
               <DesktopScreen>
@@ -49,17 +49,13 @@ const IntermediateWeb = () => {
                 How do you feel about the website?
               </h3>
               <div className="flex justify-center mt-4">
-                <iframe
-                  src="https://giphy.com/embed/9qJjr77utn6ffn4aNQ"
+                <img
+                  src="https://media0.giphy.com/media/9qJjr77utn6ffn4aNQ/giphy.gif?cid=790b761186e5d08cc9eb550f656d585b2df43be8b00a646c&rid=giphy.gif&ct=g"
                   width="480"
                   height="270"
                   frameBorder="0"
-                  class="giphy-embed"
                   allowFullScreen
-                ></iframe>
-                <p>
-                  <a href="https://giphy.com/gifs/theregisti-ok-sure-9qJjr77utn6ffn4aNQ"></a>
-                </p>
+                />
               </div>
               <p className="mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -27,12 +27,12 @@ export const prevNextLinks = {
   initialWeb: {
     prev: 'journeyOfWeb',
     next: 'intermediateWeb',
-    label: 'What is Initial Web',
+    label: "Early 90's",
   },
   intermediateWeb: {
     prev: 'initialWeb',
     next: 'modernWeb',
-    label: 'What is Intermediate Web',
+    label: "Early 2010's",
   },
   modernWeb: {
     prev: 'intermediateWeb',

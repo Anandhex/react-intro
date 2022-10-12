@@ -1,7 +1,13 @@
 import { AnimateSharedLayout, motion } from 'framer-motion';
 import React, { useState } from 'react';
 
-const Card = ({ id = '', subtitle = '', title = '', setSelectedCard }) => {
+const Card = ({
+  id = '',
+  subtitle = '',
+  title = '',
+  setSelectedCard,
+  imgUrl = '',
+}) => {
   const [isOpen, setOpen] = useState(false);
   return (
     <motion.div
@@ -28,7 +34,7 @@ const Card = ({ id = '', subtitle = '', title = '', setSelectedCard }) => {
     >
       <div>
         <motion.img
-          src="https://picsum.photos/seed/picsum/200/200"
+          src={imgUrl}
           className=" rounded-t-md w-full h-[200px] object-cover"
           width={200}
           height={200}

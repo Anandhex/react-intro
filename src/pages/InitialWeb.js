@@ -9,7 +9,7 @@ const InitialWeb = () => {
     <>
       <Layout id={'initialWeb'} background="bg-slate-200">
         <section className="flex items-center justify-center flex-col min-h-screen pb-40">
-          <h3 className="text-4xl font-bold pt-12 ">Intial Web</h3>
+          <h3 className="text-4xl font-bold pt-12 ">Early 90's</h3>
           <div className="flex pt-8 px-12 ">
             <section className="w-8/12  mr-3 ">
               <DesktopScreen>
@@ -49,17 +49,13 @@ const InitialWeb = () => {
                 How do you feel about the website?
               </h3>
               <div className="flex justify-center mt-4">
-                <iframe
-                  src="https://giphy.com/embed/j8nXhJ1fJM0wg"
+                <img
+                  src="https://media4.giphy.com/media/j8nXhJ1fJM0wg/giphy.gif?cid=790b76115ec5716a5d4125ca61f226f45a81be3302ae0d4a&rid=giphy.gif&ct=g"
                   width="480"
                   height="270"
                   frameBorder="0"
-                  class="giphy-embed"
                   allowFullScreen
-                ></iframe>
-                <p>
-                  <a href="https://giphy.com/gifs/reaction-week-everyone-j8nXhJ1fJM0wg"></a>
-                </p>
+                />
               </div>
               <p className="mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
