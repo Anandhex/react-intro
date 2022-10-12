@@ -46,16 +46,11 @@ export const prevNextLinks = {
   },
   tacklesModernWeb: {
     prev: 'comparison',
-    next: 'timeLine',
+    next: 'frameWorks',
     label: 'How Modern Web handles Web?',
   },
-  timeLine: {
-    prev: 'tacklesModernWeb',
-    next: 'frameWorks',
-    label: 'Framework Timeline',
-  },
   frameWorks: {
-    prev: 'timeLine',
+    prev: 'tacklesModernWeb',
     next: 'reactDeepDive',
     label: 'Comparison of Frameworks',
   },
