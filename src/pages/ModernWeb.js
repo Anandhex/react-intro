@@ -22,7 +22,7 @@ const ModernWeb = () => {
                 </div>
               </DesktopScreen>
               <h3 className="text-2xl font-bold mt-3">
-                Few Examples for the website of Modren Web
+                Few Examples for the website of Modern Web
               </h3>
 
               <div className="flex flex-wrap gap-3 mt-5">

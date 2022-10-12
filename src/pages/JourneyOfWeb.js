@@ -253,7 +253,7 @@ const webs = [
   },
   {
     id: '3',
-    title: 'Modren Web',
+    title: 'Modern Web',
     imgUrl:
       'https://media0.giphy.com/media/d31vTpVi1LAcDvdm/200.webp?cid=ecf05e47wc2cc1vwficllplla33ol0cnk901gyj5z1aiae25&rid=200.webp&ct=g',
     subtitle:
