@@ -4,9 +4,11 @@ import Layout from '../components/Layout';
 const ComparisonWeb = () => {
   return (
     <>
-      <Layout id={'comparison'}>
-        <section className="flex items-center justify-center flex-col min-h-screen mt-10  px-5">
-          <h3 className="text-2xl font-bold mb-5">Comparison Web</h3>
+      <Layout id={'comparison'} background="bg-slate-200">
+        <section className="grid place-content-center  min-h-screen  pt-7 pb-32 px-12">
+          <h3 className="text-2xl font-bold mb-5 text-center">
+            Comparison Web
+          </h3>
           <div className="flex">
             <section className="w-1/3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce

@@ -6,14 +6,14 @@ const Iframe = ({ link = '', title = '' }) => {
       <a
         href={link}
         target={'_blank'}
-        className="text-cyan-300 underline mb-5 inline-block"
+        className="text-[#F94E34] underline mb-5 inline-block"
       >
         {title}
       </a>
 
       <iframe
         key={2}
-        className="border"
+        className="border bg-white"
         src={link}
         width={300}
         height={300}

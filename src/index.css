@@ -36,3 +36,12 @@ code {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.snap-container {
+  scroll-snap-type: y mandatory;
+}
+.snap-container > section.snap {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+}

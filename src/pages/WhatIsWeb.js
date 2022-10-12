@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 const WhatIsWeb = () => {
   return (
     <Layout id="web">
-      <section className="grid place-content-center h-screen">
+      <section className="grid place-content-center snap bg-slate-200">
         <h3 className="text-2xl font-bold text-center">What is Web?</h3>
         <InfoGraphic
           key={1}
@@ -15,7 +15,7 @@ const WhatIsWeb = () => {
           }
         />
       </section>
-      <section className="grid place-content-center h-screen">
+      <section className="grid place-content-center snap bg-slate-400">
         <h3 className="text-2xl font-bold text-center">What is Document?</h3>
         <InfoGraphic
           key={2}

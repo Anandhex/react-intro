@@ -8,7 +8,7 @@ const DesktopScreen = ({ children }) => {
       initial={'initial'}
       animate="final"
       variants={textVariant}
-      className="desktop-screen "
+      className="desktop-screen bg-white"
     >
       <div className="h-6 bg-slate-500 w-full "></div>
       <section className="">{children}</section>

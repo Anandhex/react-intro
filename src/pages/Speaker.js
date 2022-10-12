@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 
 const Speaker = () => {
   return (
-    <Layout id="speaker">
+    <Layout id="speaker" background={'bg-slate-200'}>
       <div className="flex flex-col items-center justify-center min-h-screen">
         <h3 className="text-2xl font-bold">Before we start</h3>
         <h4 className="text-xl">Who are we?</h4>

@@ -7,7 +7,7 @@ import Iframe from '../components/Iframe';
 const InitialWeb = () => {
   return (
     <>
-      <Layout id={'initialWeb'}>
+      <Layout id={'initialWeb'} background="bg-slate-200">
         <section className="flex items-center justify-center flex-col min-h-screen pb-40">
           <h3 className="text-2xl font-bold pt-12 ">Intial Web</h3>
           <div className="flex pt-8 px-12 ">

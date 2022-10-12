@@ -26,7 +26,7 @@ const JourneyOfWeb = () => {
   const [selectedCard, setSelectedCard] = useState(null);
   return (
     <>
-      <Layout id={'journeyOfWeb'}>
+      <Layout id={'journeyOfWeb'} background="bg-slate-200">
         <section className="flex flex-col items-center justify-center min-h-screen">
           <h3 className="text-2xl font-bold pb-12">Journey of Web</h3>
 

@@ -87,7 +87,7 @@ const pageVariants = {
   },
 };
 
-const Layout = ({ children, id }) => {
+const Layout = ({ children, id, background = '' }) => {
   const navigate = useNavigate();
   return (
     <motion.section
@@ -96,13 +96,17 @@ const Layout = ({ children, id }) => {
       exit="out"
       variants={pageVariants}
       id={id}
-      className={`min-h-screen `}
+      className={`min-h-screen snap-container ${background}`}
     >
+      <span className="flex justify-end text-4xl pr-12 top-4 font-bold absolute right-0">
+        {Object.keys(prevNextLinks).findIndex((key) => key === id) + 1}/
+        {Object.keys(prevNextLinks).length}
+      </span>
       {children}
 
       <button
         onClick={() => navigate(`/${prevNextLinks[id]?.prev}`)}
-        className="px-5 py-4 shadow-lg mb-4  fixed bottom-0 left-[45%]  rounded-full  mr-3 bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all"
+        className="px-5 py-4 shadow-lg mb-4  fixed bottom-0 left-[48%]  rounded-full  mr-3 bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all"
       >
         <img src={arrow} alt="left" />
       </button>
@@ -112,7 +116,7 @@ const Layout = ({ children, id }) => {
         </div> */}
       <button
         onClick={() => navigate(`/${prevNextLinks[id]?.next}`)}
-        className="px-5 py-4 mb-4 shadow-lg fixed bottom-0 left-[50%] rounded-full bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all"
+        className="px-5 py-4 mb-4 shadow-lg fixed bottom-0 left-[52%] rounded-full bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all"
       >
         <img src={arrow} alt="right" className="rotate-180" />
       </button>
