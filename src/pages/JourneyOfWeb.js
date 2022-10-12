@@ -9,7 +9,7 @@ const webs = [
     imgUrl:
       'https://media2.giphy.com/media/fuQjjFnoHw9Cym7iLz/giphy.gif?cid=ecf05e47ev4e57mjfp8hk766ta6ta5wyukeptowpgyoiiqrs&rid=giphy.gif&ct=g',
     subtitle:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ea ducimus, ipsa expedita voluptate, ab aut explicabo fuga numquam quis suscipit sint eius provident id corporis cupiditate dolore ex perspiciatis?',
+      'The first stage or iteration of the internet. There were mostly static pages and not many content creators and most internet users were consumers.',
   },
   {
     id: '2',
