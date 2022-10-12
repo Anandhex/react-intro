@@ -2,3 +2,40 @@
   margin-top: 1.5rem;
 }
 
+/* From uiverse.io by @nikk7007 */
+.homeBtn>button {
+  padding: 0.8em 1.8em;
+  border: 1px solid #F94E3A;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: .3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #F94E3A;
+ }
+
+ .homeBtn>button::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #F94E3A;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+
+ .homeBtn>button:hover::before {
+  width: 105%;
+ }
+
+ .homeBtn>button:hover {
+  color: #fff;
+ }

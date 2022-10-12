@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Layout from '../components/Layout';
 import web from '../assets/gifs/web.gif';
 
 const Start = () => {
+  const navigate = useNavigate();
   return (
     <Layout id="start">
       <section className="flex items-center justify-center min-h-screen">
@@ -17,9 +18,17 @@ const Start = () => {
             Challenges which it faces and the <b>solutions</b> which it took.
           </p>
           <div className="mt-4 homeBtn">
-            <Link className="rounded-full px-3 py-1 border" to={'/speaker'}>
+            {/* <Link className="rounded-full px-3 py-1 border" to={'/speaker'}>
               Let us begin
-            </Link>
+            </Link> */}
+            <button
+              className="rounded-full"
+              onClick={() => navigate('/speaker')}
+            >
+              <Link className="" to={'/speaker'}>
+                Let us begin
+              </Link>
+            </button>
           </div>
         </div>
       </section>
