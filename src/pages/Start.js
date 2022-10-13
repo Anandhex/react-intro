@@ -22,7 +22,7 @@ const Start = () => {
               Let us begin
             </Link> */}
             <button
-              className="rounded-full"
+              className="rounded-full hover:font-bold"
               onClick={() => navigate('/speaker')}
             >
               <Link className="" to={'/speaker'}>

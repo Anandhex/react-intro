@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Avatar from '../components/Avatar';
 import Layout from '../components/Layout';
+import anand from '../assets/jpg/anand.jpg';
+import subash from '../assets/jpg/subash.jpg';
 
 const Speaker = () => {
   return (
@@ -11,11 +13,13 @@ const Speaker = () => {
         <h4 className="text-xl mb-3">Who are we?</h4>
         <div className="flex mt-5 justify-between w-1/2">
           <Avatar
+            url={anand}
             key={1}
             userName="Anand"
             desc="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
           />
           <Avatar
+            url={subash}
             key={2}
             userName="Subash"
             desc="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"

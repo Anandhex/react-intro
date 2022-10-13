@@ -25,14 +25,14 @@ export const textVariantReverse = {
   },
 };
 
-const Avatar = ({ userName = '', desc = '' }) => {
+const Avatar = ({ userName = '', desc = '', url = '' }) => {
   return (
     <div className="flex flex-col items-center">
       <motion.img
         initial="initial"
         animate="final"
         variants={imageVariant}
-        src="https://picsum.photos/seed/picsum/200/200"
+        src={url}
         className="rounded-full"
         alt="speaker 1"
         height={200}
