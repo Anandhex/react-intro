@@ -8,7 +8,7 @@ const TacklesModernWeb = () => {
       <Layout id={'tacklesModernWeb'} background="bg-slate-200  ">
         <section className="grid place-content-center snap">
           <h3 className="text-4xl font-bold mb-5">
-            How did Web in general tried to handle this Issues?
+            How did Web try to handle these Issues?
           </h3>
           <img
             src="https://media3.giphy.com/media/l4FGBWVSLDSRTp280/200w.webp?cid=ecf05e475ne2dyw7pixgl87x33fhoxp45l36a5k9ib8un33w&rid=200w.webp&ct=g"
