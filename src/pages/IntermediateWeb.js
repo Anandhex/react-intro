@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 import DesktopScreen from '../components/DesktopScreen';
 import Layout from '../components/Layout';
@@ -58,30 +59,54 @@ const IntermediateWeb = () => {
                 />
               </div>
               <p className="mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repudiandae possimus dolorum labore reiciendis ea, deleniti
-                totam molestias vero quibusdam cum earum iusto eligendi ut vitae
-                nisi dolor in magni quisquam. Consequatur corrupti quidem
-                provident? Aliquam accusamus quidem unde perferendis qui?
+                This decade has drastic change for web community.The usage of
+                internet was incrased rapidly. In 2000 The first draft of{' '}
+                <b>CSS 3</b> was published during this year. Many popular sites
+                lauched this year like McDonald's, Paypal and so on...{' '}
               </p>
               <p className="mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci nulla ea, ad, cumque aut aliquam assumenda fugiat iure
-                soluta ducimus harum, possimus placeat. Laudantium id
-                distinctio, doloribus dolor illum sunt.
+                2001 svg format was introduced this is the first vector image
+                for the website can be written in xml
+              </p>
+              <p className="mt-3">
+                2003 first verison of <b>WordPress</b> was created this year
+                marked the begining of dynamic content and bloggig era instead
+                of static HTML page.
+              </p>
+              <p className="mt-3">
+                2004 Css updated the stye property. Added more styles in web
+                page it gives more graphical content on a page. Facebook abd
+                XBox launched this year
+              </p>
+              <p className="mt-3">
+                In 2006 the first CSS PreProcessor Sass was crated this year
+                extending css feature allow web desiger to create more complex
+                effects.
+              </p>
+              <p className="mt-3">
+                2008 India 3G arena with the launch of 3G. Not only for web apps
+                even usage of mobile apps also rapidly increase.
+              </p>
+              <p className="mt-3">
+                Compared to previous decade the size of the application got
+                reduced.
+              </p>
+              <p className="mt-3">
+                Although cloud computing had been around for a while, the idea
+                that most of our data and important tools could be stored and
+                accessed was fairly new in the early 2010s.
               </p>
               <h3 className="text-2xl font-bold mt-3">Issues with it?</h3>
               <p className="mt-3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laboriosam, tempora ullam. Amet eius voluptatibus autem
-                dignissimos nisi quas eveniet adipisci veniam! Deserunt nisi
-                ratione numquam soluta, debitis non voluptate quis.
+                Security initiative were under taken, better support for
+                different browser, different engine and also no global
+                standards.
               </p>
               <p className="mt-3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laboriosam, tempora ullam. Amet eius voluptatibus autem
-                dignissimos nisi quas eveniet adipisci veniam! Deserunt nisi
-                ratione numquam soluta, debitis non voluptate quis.
+                Not enough css didn't have the capability for Responsive Design.
+              </p>
+              <p className="mt-3">
+                Mediocre for security. Minimal number of hosting sites.
               </p>
             </Aside>
           </div>
