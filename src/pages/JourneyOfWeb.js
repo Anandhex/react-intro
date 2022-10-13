@@ -241,7 +241,7 @@ const webs = [
     imgUrl:
       'https://media2.giphy.com/media/fuQjjFnoHw9Cym7iLz/giphy.gif?cid=ecf05e47ev4e57mjfp8hk766ta6ta5wyukeptowpgyoiiqrs&rid=giphy.gif&ct=g',
     subtitle:
-      "The first stage or iteration of the internet. It's all about sharing information and websites were often pure text, with blue hyperlinks that turned purple on click.",
+      "The first stage or iteration of the internet. In 1990s was when the world first website was published there are nothing much few texts and hyperlinks also at the time of available public web browser was't graphical but text only called line mode browser.",
   },
   {
     id: '2',
