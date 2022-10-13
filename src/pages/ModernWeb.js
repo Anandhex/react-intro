@@ -59,30 +59,52 @@ const ModernWeb = () => {
                 />
               </div>
               <p className="mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repudiandae possimus dolorum labore reiciendis ea, deleniti
-                totam molestias vero quibusdam cum earum iusto eligendi ut vitae
-                nisi dolor in magni quisquam. Consequatur corrupti quidem
-                provident? Aliquam accusamus quidem unde perferendis qui?
+                Modern web allows individuals to publish articles and comments,
+                create accounts. This is a two way communication. It refers to a
+                paradigm shift in how the internet is used. Over the past 15 to
+                20 years, the bland webpages of Web 1.0 have been completely
+                replaced by Web 2.0’s interactivity, social connectivity, and
+                user-generated content. Web 2.0 makes it possible for
+                user-generated content to be viewed by millions of people around
+                the world virtually in an instant; this unparalleled reach has
+                led to an explosion of this type of content in recent years.
               </p>
               <p className="mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci nulla ea, ad, cumque aut aliquam assumenda fugiat iure
-                soluta ducimus harum, possimus placeat. Laudantium id
-                distinctio, doloribus dolor illum sunt.
+                The exponential growth of Web 2.0 has been driven by key
+                innovations such as mobile internet access and social networks,
+                as well as the near-ubiquity of powerful mobile devices like
+                iPhones and Android-powered devices. In the second decade of
+                this millennium, these developments enabled the dominance of
+                apps that greatly expanded online interactivity and utility—for
+                example, Airbnb, Facebook, Instagram, TikTok, Twitter, Uber,
+                WhatsApp, and YouTube, to name a few.
+              </p>
+              <p className="mt-3">
+                The phenomenal revenue growth of these dominant platforms has
+                made many of the Web 2.0-centric companies—such as Apple,
+                Amazon, Google, Meta (formerly Facebook), and Netflix—among the
+                world’s biggest companies by market capitalization (there is
+                even an acronym for them: FAANG).
+              </p>
+              <p className="mt-3">
+                These applications have also spurred the growth of the gig
+                economy, by enabling millions of people to earn income on a
+                part-time or full-time basis by driving, renting their homes,
+                delivering food and groceries, or selling goods and services
+                online. Web 2.0 has also been tremendously disruptive to certain
+                industries to the point of being an existential threat to some
+                of them. These are sectors that have either failed to adapt to
+                the new web-centric business model or been slow to do so, with
+                retail, entertainment, media, and advertising among the hardest
+                hit.
               </p>
               <h3 className="text-2xl font-bold mt-3">Issues with it?</h3>
               <p className="mt-3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laboriosam, tempora ullam. Amet eius voluptatibus autem
-                dignissimos nisi quas eveniet adipisci veniam! Deserunt nisi
-                ratione numquam soluta, debitis non voluptate quis.
-              </p>
-              <p className="mt-3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laboriosam, tempora ullam. Amet eius voluptatibus autem
-                dignissimos nisi quas eveniet adipisci veniam! Deserunt nisi
-                ratione numquam soluta, debitis non voluptate quis.
+                The website no longer needs to look the same in different
+                browsers or devices with different screen sizes. With responsive
+                design, a website changes its form to fit any available space on
+                whatever screen. This technique is frequently practiced and has
+                become the norm on the Web.
               </p>
             </Aside>
           </div>
