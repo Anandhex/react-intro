@@ -11,7 +11,7 @@ const Start = () => {
         <img src={web} width={450} alt="Web Info Graphic" />
 
         <div className="flex flex-col justify-center items-center w-6/12">
-          <h1 className="text-5xl font-bold">React for Dummies</h1>
+          <h1 className="text-5xl font-bold">React for Everyone</h1>
           <p className="mt-5 w-1/2 text-center">
             We're going to talk about what is <b>web</b>? <br />
             The journey which the web took to be at this stage. <br />
