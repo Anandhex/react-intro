@@ -14,16 +14,13 @@ const ReactDeepDive = () => {
   return (
     <>
       <Layout id={'reactDeepDive'} background="bg-slate-200">
-        <div className="mt-24"></div>
-        <DesktopScreen>
-          <div className="iframe-holder">
-            <iframe
-              src="https://learn.react-js.dev/introduction/general"
-              frameborder="0"
-              className="w-full min-h-screen"
-            ></iframe>
-          </div>
-        </DesktopScreen>
+        <div className="iframe-holder">
+          <iframe
+            src="https://learn.react-js.dev/introduction/general"
+            frameborder="0"
+            className="w-full min-h-screen"
+          ></iframe>
+        </div>
       </Layout>
     </>
   );
