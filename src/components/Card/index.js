@@ -40,15 +40,16 @@ const Card = ({
           height={200}
         />
       </div>
-      <motion.h2 layoutId={id} className="p-3" layout="position">
+      <motion.h2
+        layoutId={id}
+        className="p-3 text-xl font-bold"
+        layout="position"
+      >
         {title}
       </motion.h2>
       {isOpen && (
         <>
           <motion.p className="p-3 ">{subtitle}</motion.p>
-          <motion.button className="p-3 flex justify-end w-full">
-            Read More
-          </motion.button>
         </>
       )}
     </motion.div>
