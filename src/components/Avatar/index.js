@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Children } from 'react';
 import { motion } from 'framer-motion';
 export const imageVariant = {
   initial: {
@@ -25,7 +25,7 @@ export const textVariantReverse = {
   },
 };
 
-const Avatar = ({ userName = '', desc = '', url = '' }) => {
+const Avatar = ({ userName = '', children, url = '' }) => {
   return (
     <div className="flex flex-col items-center">
       <motion.img
@@ -52,7 +52,7 @@ const Avatar = ({ userName = '', desc = '', url = '' }) => {
         animate="final"
         className="text-center"
       >
-        {desc}
+        {children}
       </motion.p>
     </div>
   );

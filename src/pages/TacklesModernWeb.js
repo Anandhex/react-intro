@@ -6,7 +6,7 @@ const TacklesModernWeb = () => {
   return (
     <>
       <Layout id={'tacklesModernWeb'} background="bg-slate-200  ">
-        <section className=" grid place-content-center snap">
+        <section className="grid place-content-center snap">
           <h3 className="text-4xl font-bold mb-5">
             How did Web in general tried to handle this Issues?
           </h3>
@@ -24,7 +24,7 @@ const TacklesModernWeb = () => {
             <div>
               <h3 className="text-right text-4xl font-bold">
                 Yup! <br />
-                Stuffing stuffs/Throwing stuffs at it
+                Throwing stuffs at it
               </h3>
               <h4 className="text-2xl  mb-5 mt-3">
                 Let us list some of the <b>stuffs</b>
@@ -51,13 +51,13 @@ const TacklesModernWeb = () => {
         </section>
         <section className="snap grid place-content-center bg-slate-200">
           <h3 className="text-center text-4xl font-bold">
-            Still existing <em>issues</em> in Modern Web
+            Existing <em>issues</em> in Modern Web
           </h3>
           <div className="flex flex-wrap gap-3 mt-9 justify-center">
             <SmallCard
               key={1}
               title="Different Browsers"
-              subtitle="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, inventore sunt cumque eaque, doloremque earum perferendis voluptate distinctio architecto molestias rem adipisci maxime tempore cum et, quidem porro fugiat harum!"
+              subtitle="We still have many browsers which the standards of the own and enginees. The implementation of CSS is different for different browser"
             />
             <SmallCard
               key={2}

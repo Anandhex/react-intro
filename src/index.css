@@ -38,6 +38,8 @@ code {
 }
 
 .snap-container {
+  height: 100vh;
+  overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
 .snap-container > section.snap {

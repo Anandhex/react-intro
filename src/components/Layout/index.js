@@ -114,7 +114,7 @@ const Layout = ({ children, id, background = '' }) => {
 
       <button
         onClick={() => navigate(`/${prevNextLinks[id]?.prev}`)}
-        className="px-5 py-4 shadow-lg mb-4  fixed bottom-0 left-[48%]  rounded-full  mr-3 bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all"
+        className="px-5 py-4 shadow-lg mb-4  fixed bottom-0 left-[46%]  rounded-full  mr-3 bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all"
       >
         <img src={arrow} alt="left" />
       </button>
@@ -124,7 +124,7 @@ const Layout = ({ children, id, background = '' }) => {
         </div> */}
       <button
         onClick={() => navigate(`/${prevNextLinks[id]?.next}`)}
-        className="px-5 py-4 mb-4 shadow-lg fixed bottom-0 left-[52%] rounded-full bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all"
+        className="px-5 py-4 mb-4 shadow-lg fixed bottom-0 left-[50%] rounded-full bg-[#F94E34] text-white font-bold hover:bg-yellow-200 hover:text-black transition-all"
       >
         <img src={arrow} alt="right" className="rotate-180" />
       </button>
