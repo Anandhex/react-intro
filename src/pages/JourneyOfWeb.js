@@ -241,7 +241,7 @@ const webs = [
     imgUrl:
       'https://media2.giphy.com/media/fuQjjFnoHw9Cym7iLz/giphy.gif?cid=ecf05e47ev4e57mjfp8hk766ta6ta5wyukeptowpgyoiiqrs&rid=giphy.gif&ct=g',
     subtitle:
-      'The first stage or iteration of the internet. There were mostly static pages and not many content creators and most internet users were consumers.',
+      "The first stage or iteration of the internet. It's all about sharing information and websites were often pure text, with blue hyperlinks that turned purple on click.",
   },
   {
     id: '2',
@@ -249,7 +249,7 @@ const webs = [
     imgUrl:
       'https://media2.giphy.com/media/l0MYLoXAw7JSyHiZG/giphy.gif?cid=ecf05e47alhnyj4zq217vl5v7nn4fa4tigmqbsjgp980la0n&rid=giphy.gif&ct=g',
     subtitle:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ea ducimus, ipsa expedita voluptate, ab aut explicabo fuga numquam quis suscipit sint eius provident id corporis cupiditate dolore ex perspiciatis?',
+      'The increase in the use of graphics and visual elements has introduced some of the most significant changes. Early websites were very text-heavy, using only basic HTML. We now use many coding languages, like Java and CSS, to help us create much more visually appealing websites.',
   },
   {
     id: '3',
@@ -257,7 +257,7 @@ const webs = [
     imgUrl:
       'https://media0.giphy.com/media/d31vTpVi1LAcDvdm/200.webp?cid=ecf05e47wc2cc1vwficllplla33ol0cnk901gyj5z1aiae25&rid=200.webp&ct=g',
     subtitle:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ea ducimus, ipsa expedita voluptate, ab aut explicabo fuga numquam quis suscipit sint eius provident id corporis cupiditate dolore ex perspiciatis?',
+      'The Morden Web Trends and Standards for in Three Words: Fast, Clean and Eye-Catching. When you think about web , think of custom illustrations, animated cursors, and blending photos with graphical elements. All of these and more will help to keep your site fresh.',
   },
 ];
 const JourneyOfWeb = () => {

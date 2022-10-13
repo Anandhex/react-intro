@@ -58,30 +58,50 @@ const InitialWeb = () => {
                 />
               </div>
               <p className="mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repudiandae possimus dolorum labore reiciendis ea, deleniti
-                totam molestias vero quibusdam cum earum iusto eligendi ut vitae
-                nisi dolor in magni quisquam. Consequatur corrupti quidem
-                provident? Aliquam accusamus quidem unde perferendis qui?
+                In the early 90s websites were built with http only using HTML
+                and images. There probably was no backend language at all
+                initially, when it became a thing with CGI, it was either Perl
+                or C programs, sometimes also shell scripts.
+                <br />A typical website at the time was using blue text on a
+                white or dark grey background. <br />
+                You spent time staring at a blank screen wondering what to do.
+                If you could think of a good URL you typed it into your browser.
+                <br />
               </p>
               <p className="mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci nulla ea, ad, cumque aut aliquam assumenda fugiat iure
-                soluta ducimus harum, possimus placeat. Laudantium id
-                distinctio, doloribus dolor illum sunt.
+                It took 5-10 seconds for every page to load. If you had a fast
+                connection you could see that most people had slow servers. It
+                takes 5-10 seconds to load a page, you become aware of problems
+                with the ad networks loading cookies or your browser hogging all
+                your memory.
               </p>
               <h3 className="text-2xl font-bold mt-3">Issues with it?</h3>
               <p className="mt-3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laboriosam, tempora ullam. Amet eius voluptatibus autem
-                dignissimos nisi quas eveniet adipisci veniam! Deserunt nisi
-                ratione numquam soluta, debitis non voluptate quis.
+                There were a lot of broken image links, broken links of all
+                sorts.
+                <br />
+                There were no popups, pfishing was rare, very little malicious
+                code, no cookies at all in early versions, no rev share, no paid
+                search, no SEO optimization, no aggregation of anything. But
+                there were many, many link farms.
+                <br />
+                People were afraid to talk to strangers, date, provide personal
+                information, or buy online. It seemed like something sinister
+                was going to happen.
               </p>
               <p className="mt-3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laboriosam, tempora ullam. Amet eius voluptatibus autem
-                dignissimos nisi quas eveniet adipisci veniam! Deserunt nisi
-                ratione numquam soluta, debitis non voluptate quis.
+                Narrow page width by today's standards. Screens were no wider
+                than 800 pixels
+                <br />
+                Sparing use of graphics. Many people were on dial-up connections
+                and large and more detailed images could take over a minute to
+                download.
+                <br />
+                Limited variety of fonts. Usually a browser sans or serif.
+                <br />
+                Flash splash screens were fairly ubiquitous. Web pages were
+                thought of as similar to television adverts with a captive
+                audience.
               </p>
             </Aside>
           </div>
