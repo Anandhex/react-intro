@@ -11,7 +11,7 @@ const TacklesModernWeb = () => {
             How did Web in general tried to handle this Issues?
           </h3>
           <img
-            src="https://media4.giphy.com/media/xUOxeZc41DVT2l9laU/giphy.gif?cid=790b76112a9181d894bd09f9c58c3c321c264b13e3bd0ef9&rid=giphy.gif&ct=g"
+            src="https://media3.giphy.com/media/l4FGBWVSLDSRTp280/200w.webp?cid=ecf05e475ne2dyw7pixgl87x33fhoxp45l36a5k9ib8un33w&rid=200w.webp&ct=g"
             width="480"
             height="271"
             frameBorder="0"
@@ -57,27 +57,27 @@ const TacklesModernWeb = () => {
             <SmallCard
               key={1}
               title="Different Browsers"
-              subtitle="We still have many browsers which the standards of the own and enginees. The implementation of CSS is different for different browser"
+              subtitle="We still have many browsers which have standards of their own. The CSS implementation is different for each browser"
             />
             <SmallCard
               key={2}
               title="Browsers Engines"
-              subtitle="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, inventore sunt cumque eaque, doloremque earum perferendis voluptate distinctio architecto molestias rem adipisci maxime tempore cum et, quidem porro fugiat harum!"
+              subtitle="The way javascript gets parsed is different for each engine. So the performance of web pages differs on different browsers"
             />
             <SmallCard
               key={3}
               title="Different Javascript Versions"
-              subtitle="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, inventore sunt cumque eaque, doloremque earum perferendis voluptate distinctio architecto molestias rem adipisci maxime tempore cum et, quidem porro fugiat harum!"
+              subtitle="Certain web browsers haven't updated the engines to support the latest javascript version. So we have developers working on a different version of Javascript"
             />
             <SmallCard
               key={4}
               title="CSS Supports"
-              subtitle="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, inventore sunt cumque eaque, doloremque earum perferendis voluptate distinctio architecto molestias rem adipisci maxime tempore cum et, quidem porro fugiat harum!"
+              subtitle="The way the browser implements the CSS is different. Certain CSS properties can't be used to provide a better experience. Any Frontend developer has an idea about caniuse.com"
             />
             <SmallCard
               key={5}
               title="Standardization"
-              subtitle="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, inventore sunt cumque eaque, doloremque earum perferendis voluptate distinctio architecto molestias rem adipisci maxime tempore cum et, quidem porro fugiat harum!"
+              subtitle="Different implementations and different ways how the DOM is rendered in the browser. There is no same standard across them which gives unexpected result."
             />
           </div>
         </section>
