@@ -69,7 +69,33 @@ const InitialWeb = () => {
                 <br />
               </p>
               <p className="mt-3">
-                It took 5-10 seconds for every page to load. If you had a fast
+                In 1992 the first image was posted online and was edited with
+                photoshop before upload the internet
+              </p>
+              <p className="mt-3">
+                In 1993 <b>Mosaic</b> the world first public graphical browser
+                was avilable this was when the landing page design was
+                introduced.{' '}
+              </p>
+              <p className="mt-3">
+                In 1994 one of the world most popular browser <b>Netscape </b>
+                was launched easy acces to the public including graphical
+                features like animated gif, image, text formatting and table.
+              </p>
+              <p className="mt-3">
+                In 1995 use of table format the HTML structure was widely
+                adopted. JavaScript was introduced this year starting the era of
+                interactive content.
+              </p>
+              <p className="mt-3">
+                In 1996 to 1999 <b>CSS1</b> was introduced and adopted during
+                this period before that all code inline int the HTML so CSS is
+                the first step to separate control and presentation and has
+                become the foundation of today's web design and development
+                rounded corner image was very popular trend.
+              </p>
+              <p className="mt-3">
+                It took 5-10s for every page to load. If you had a fast
                 connection you could see that most people had slow servers. It
                 takes 5-10 seconds to load a page, you become aware of problems
                 with the ad networks loading cookies or your browser hogging all
