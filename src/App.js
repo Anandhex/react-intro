@@ -18,6 +18,7 @@ import ReactInGeneralWithCode from './pages/ReactInGeneralWithCode';
 import QA from './pages/QA';
 import Feedback from './pages/Feedback';
 import Thankyou from './pages/Thankyou';
+import PageNotFound from './pages/PageNotFound';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,7 @@ const router = createBrowserRouter([
       { path: '/qa', element: <QA /> },
       { path: '/feedback', element: <Feedback /> },
       { path: '/thankyou', element: <Thankyou /> },
+      { path: '*', element: <PageNotFound /> },
     ],
   },
 ]);

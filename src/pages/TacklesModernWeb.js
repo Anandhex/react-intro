@@ -16,6 +16,7 @@ const TacklesModernWeb = () => {
             height="271"
             frameBorder="0"
             className="giphy-embed mx-auto "
+            alt="issues"
             allowFullScreen
           />
         </section>
@@ -42,6 +43,7 @@ const TacklesModernWeb = () => {
             <img
               src="https://media1.giphy.com/media/gJhJEGkckEnIkqwOCa/giphy.gif?cid=790b76117d024b3b72adb3d347872ed5581e702a831ecec8&rid=giphy.gif&ct=g"
               width="480"
+              alt="doing best"
               height="480"
               frameBorder="0"
               class="giphy-embed"
