@@ -8,7 +8,7 @@ const Root = () => {
     <main>
       <Header />
       <ScrollRestoration />
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence mode="wait">
         <Outlet></Outlet>
       </AnimatePresence>
     </main>

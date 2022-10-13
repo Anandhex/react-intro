@@ -8,6 +8,7 @@ const PageNotFound = () => {
         <img
           src="https://media0.giphy.com/media/WNimlZt5dpzYXMtNth/200.webp?cid=ecf05e47kdsvrtcw7c2p4l3gaklpgpbnfpuxpfjxr2vbt11z&rid=200.webp&ct=g"
           width={520}
+          alt="Not found"
         />
       </section>
     </Layout>
