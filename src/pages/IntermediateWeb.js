@@ -74,13 +74,13 @@ const IntermediateWeb = () => {
                 of static HTML page.
               </p>
               <p className="mt-3">
-                2004 Css updated the stye property. Added more styles in web
+                2004 CSS updated the stye property. Added more styles in web
                 page it gives more graphical content on a page. Facebook abd
                 XBox launched this year
               </p>
               <p className="mt-3">
                 In 2006 the first CSS PreProcessor Sass was crated this year
-                extending css feature allow web desiger to create more complex
+                extending CSS feature allow web desiger to create more complex
                 effects.
               </p>
               <p className="mt-3">
@@ -97,16 +97,12 @@ const IntermediateWeb = () => {
                 accessed was fairly new in the early 2010s.
               </p>
               <h3 className="text-2xl font-bold mt-3">Issues with it?</h3>
+              <p className="mt-3">No global standards.</p>
               <p className="mt-3">
-                Security initiative were under taken, better support for
-                different browser, different engine and also no global
-                standards.
+                Not enough CSS support for Responsive Design.
               </p>
               <p className="mt-3">
-                Not enough css didn't have the capability for Responsive Design.
-              </p>
-              <p className="mt-3">
-                Mediocre for security. Minimal number of hosting sites.
+                Mediocre security. Minimal number of hosting sites.
               </p>
             </Aside>
           </div>
