@@ -58,6 +58,38 @@ const ReactInGeneralWithCode = () => {
             </SmallCard>
           </div>
         </section>
+        <section className="snap grid place-content-center bg-slate-200">
+          <h3 className="text-4xl font-bold text-center">Guess What???</h3>
+          <img
+            src="https://media0.giphy.com/media/NMufrvxO8fC3C/200.webp?cid=ecf05e47l7xxx3mvv86q3ii8ilp3p6v1ii0ky86akse2f3uz&rid=200.webp&ct=g"
+            alt="what"
+            className="mt-7"
+            width={500}
+          />
+        </section>
+        <section className="snap grid place-content-center bg-slate-400">
+          <h3 className="text-4xl font-bold text-center">
+            The entire Presentation was built in React!
+          </h3>
+          <div className="flex justify-between mt-7 gap-7">
+            <div>
+              <h4 className="text-3xl">And with some extra libraries</h4>
+              <ul className="text-2xl list-disc mt-3">
+                <li>React Router - For routing.</li>
+                <li>Framer Motion - For animation.</li>
+                <li>Tailwind - For quirky CSS.</li>
+                <li>
+                  Our brains - For <b>logic</b>.
+                </li>
+              </ul>
+            </div>
+            <img
+              src="https://media3.giphy.com/media/fapJpJxnArDFK/200.webp?cid=ecf05e475gig07mxfl1nqvaf913h4tuwgfzvj2k0c320gcwx&rid=200.webp&ct=g"
+              alt="what"
+              width={500}
+            />
+          </div>
+        </section>
       </Layout>
     </>
   );

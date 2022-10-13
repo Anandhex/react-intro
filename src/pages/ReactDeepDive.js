@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import DesktopScreen from '../components/DesktopScreen';
 
 const ReactDeepDive = () => {
   const list = [
@@ -13,16 +14,16 @@ const ReactDeepDive = () => {
   return (
     <>
       <Layout id={'reactDeepDive'} background="bg-slate-200">
-        <section className="flex items-center justify-center flex-col min-h-screen  px-5">
-          <h3 className="text-2xl font-bold mb-5">React Deep Dive</h3>
-          <ul>
-            {list.map((item, idx) => (
-              <li className="mt-4 breadcrumbs__item" key={idx}>
-                {item}
-              </li>
-            ))}
-          </ul>
-        </section>
+        <div className="mt-24"></div>
+        <DesktopScreen>
+          <div className="iframe-holder">
+            <iframe
+              src="https://learn.react-js.dev/introduction/general"
+              frameborder="0"
+              className="w-full min-h-screen"
+            ></iframe>
+          </div>
+        </DesktopScreen>
       </Layout>
     </>
   );
