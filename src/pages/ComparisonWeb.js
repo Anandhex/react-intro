@@ -2,6 +2,44 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 const ComparisonWeb = () => {
+  const early90 = [
+    "Web pages look like few texts, hyperlinks, and broken images, it wasn't graphical but text only called line-mode browser.",
+
+    'Javascript introduce in 1995 but the browser compatablily was very limited. So, Perl plays a major role in this decade.',
+
+    'At the end of the decade 150 million users start use the internet.',
+    'No Responsive.',
+
+    'The ways to protect against web attacks started to be found.',
+
+    'Only Minimal hosting site is there most of the site are expensive and most of the company are closed.',
+  ];
+  const early10 = [
+    'The graphics and visual elements have introduced some of the most significant changes. HTML introduced the table and grid to make proper table content and layout.',
+
+    'WordPress was created this year marked the begining of dynamic content and bloggig era instead of static HTML page. Most of the website using JSP but at the same time JS growth was slightly increased .',
+
+    'In 2009 -2010 Usage of Internet is slightly increased 14% . So the count is 1.97 billion users. This is the time for internet revelotion begins.',
+
+    'Not enough CSS support for Responsive Design.',
+
+    'The Open Web Application Security Project ( OWASP) was established in 2001 and played a significant role in advancing awareness, tools, and standards in application security.',
+
+    'The Price of a regular, consumer-oriented shared web hosting account, and how much storage space and data transfer (traffic) was included in that account.',
+  ];
+  const modernWeb = [
+    "The modern web looks aesthetic and eye-catching design with more animation. For example, the current web which we're showing right now.",
+
+    'As of 2022,98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.',
+
+    "At the beginning of 2022, 62.5% of the world's population starts using the internet. The approximate count is a 4.9billion. So the fact is here  We can live a day without having food but, we can't live a day without having internet.",
+
+    'CSS has more features to create a Responsive Design.',
+
+    'The modern web it has more secure at the time the possible for Security Breach is high.',
+
+    'The n number of hosting site in the mordern web and it provides free for the month.',
+  ];
   return (
     <>
       <Layout id={'comparison'} background="bg-slate-200">
@@ -10,119 +48,48 @@ const ComparisonWeb = () => {
             Comparison Web
           </h3>
           <div className="flex">
-            <section className="w-1/3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              consequat molestie erat eget convallis. Suspendisse lacinia
-              sagittis odio. Integer ornare vel justo vel consequat. Nulla et
-              vulputate mi. Donec sollicitudin velit urna, a tincidunt ipsum
-              fermentum pulvinar. Donec molestie egestas ipsum sed porta. Aenean
-              condimentum rutrum mauris at semper. Orci varius natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus. Nunc
-              luctus eros et sapien cursus rhoncus. Fusce viverra hendrerit diam
-              a blandit. Maecenas ut nulla eu lacus scelerisque sollicitudin.
-              Cras id facilisis nisl, in scelerisque libero. Sed eget posuere
-              nisl. Suspendisse semper et arcu vel laoreet. Integer imperdiet
-              ornare mattis. Praesent pretium blandit commodo. Fusce venenatis
-              in lacus ut venenatis. Phasellus sed ante efficitur, porttitor
-              arcu vitae, viverra urna. Sed vestibulum dui et suscipit ultrices.
-              Nulla quis leo ac turpis tincidunt tempus a at odio. Morbi nisi
-              diam, posuere nec ullamcorper nec, venenatis sed ante. Aenean eget
-              viverra sapien. Donec blandit in neque et vestibulum. Donec erat
-              lorem, feugiat sed odio in, rhoncus ornare nisl. Nunc risus nisi,
-              tincidunt ut massa id, suscipit eleifend est. Maecenas imperdiet
-              viverra ex at euismod. Cras id viverra lacus. Nulla viverra
-              viverra leo, sit amet iaculis nisi aliquet id. Cras pretium dolor
-              odio, et viverra nulla semper et. Sed egestas urna vitae velit
-              tristique, vel vehicula velit ornare. Vestibulum ante ipsum primis
-              in faucibus orci luctus et ultrices posuere cubilia curae; Fusce
-              blandit urna a arcu tempus tincidunt. Nullam commodo, justo vel
-              consequat placerat, nibh enim molestie justo, ut interdum orci
-              libero ut nisi. Suspendisse luctus imperdiet varius. Donec leo
-              justo, fringilla eget venenatis sit amet, pulvinar ac diam. Duis
-              sapien augue, commodo quis finibus id, ullamcorper et mauris.
-              Praesent eu consectetur massa. Vivamus non urna malesuada, rhoncus
-              urna sit amet, dapibus tortor. Sed aliquet ante in aliquam
-              vestibulum. Curabitur in interdum purus. Sed porttitor, justo
-              vitae consectetur porttitor, mi risus faucibus nulla, a gravida
-              metus arcu cursus velit. Curabitur ut magna lacinia, euismod erat
-              vel, faucibus est. Nam mauris leo, sollicitudin ut mauris a,
-              tristique venenatis dui.
+            {/* bg-slate-400 bg-slate-600 */}
+            <section className="w-1/3 mr-3">
+              <h1 className="text-center bg-slate-400 text-white	py-3">
+                Early 90's
+              </h1>
+              <article>
+                <ul className="list-disc">
+                  {early90.map((list, key) => (
+                    <li key={key} className="py-1">
+                      {list}
+                    </li>
+                  ))}
+                </ul>
+              </article>
+            </section>
+            <section className="w-1/3 mr-3">
+              <h1 className="text-center bg-slate-600 text-white	py-3">
+                Early 2010's
+              </h1>
+              <article>
+                <ul className="list-disc">
+                  {early10.map((list, key) => (
+                    <li key={key} className="py-1">
+                      {list}
+                    </li>
+                  ))}
+                </ul>
+              </article>
             </section>
             <section className="w-1/3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              consequat molestie erat eget convallis. Suspendisse lacinia
-              sagittis odio. Integer ornare vel justo vel consequat. Nulla et
-              vulputate mi. Donec sollicitudin velit urna, a tincidunt ipsum
-              fermentum pulvinar. Donec molestie egestas ipsum sed porta. Aenean
-              condimentum rutrum mauris at semper. Orci varius natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus. Nunc
-              luctus eros et sapien cursus rhoncus. Fusce viverra hendrerit diam
-              a blandit. Maecenas ut nulla eu lacus scelerisque sollicitudin.
-              Cras id facilisis nisl, in scelerisque libero. Sed eget posuere
-              nisl. Suspendisse semper et arcu vel laoreet. Integer imperdiet
-              ornare mattis. Praesent pretium blandit commodo. Fusce venenatis
-              in lacus ut venenatis. Phasellus sed ante efficitur, porttitor
-              arcu vitae, viverra urna. Sed vestibulum dui et suscipit ultrices.
-              Nulla quis leo ac turpis tincidunt tempus a at odio. Morbi nisi
-              diam, posuere nec ullamcorper nec, venenatis sed ante. Aenean eget
-              viverra sapien. Donec blandit in neque et vestibulum. Donec erat
-              lorem, feugiat sed odio in, rhoncus ornare nisl. Nunc risus nisi,
-              tincidunt ut massa id, suscipit eleifend est. Maecenas imperdiet
-              viverra ex at euismod. Cras id viverra lacus. Nulla viverra
-              viverra leo, sit amet iaculis nisi aliquet id. Cras pretium dolor
-              odio, et viverra nulla semper et. Sed egestas urna vitae velit
-              tristique, vel vehicula velit ornare. Vestibulum ante ipsum primis
-              in faucibus orci luctus et ultrices posuere cubilia curae; Fusce
-              blandit urna a arcu tempus tincidunt. Nullam commodo, justo vel
-              consequat placerat, nibh enim molestie justo, ut interdum orci
-              libero ut nisi. Suspendisse luctus imperdiet varius. Donec leo
-              justo, fringilla eget venenatis sit amet, pulvinar ac diam. Duis
-              sapien augue, commodo quis finibus id, ullamcorper et mauris.
-              Praesent eu consectetur massa. Vivamus non urna malesuada, rhoncus
-              urna sit amet, dapibus tortor. Sed aliquet ante in aliquam
-              vestibulum. Curabitur in interdum purus. Sed porttitor, justo
-              vitae consectetur porttitor, mi risus faucibus nulla, a gravida
-              metus arcu cursus velit. Curabitur ut magna lacinia, euismod erat
-              vel, faucibus est. Nam mauris leo, sollicitudin ut mauris a,
-              tristique venenatis dui.
-            </section>
-            <section className="w-1/3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              consequat molestie erat eget convallis. Suspendisse lacinia
-              sagittis odio. Integer ornare vel justo vel consequat. Nulla et
-              vulputate mi. Donec sollicitudin velit urna, a tincidunt ipsum
-              fermentum pulvinar. Donec molestie egestas ipsum sed porta. Aenean
-              condimentum rutrum mauris at semper. Orci varius natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus. Nunc
-              luctus eros et sapien cursus rhoncus. Fusce viverra hendrerit diam
-              a blandit. Maecenas ut nulla eu lacus scelerisque sollicitudin.
-              Cras id facilisis nisl, in scelerisque libero. Sed eget posuere
-              nisl. Suspendisse semper et arcu vel laoreet. Integer imperdiet
-              ornare mattis. Praesent pretium blandit commodo. Fusce venenatis
-              in lacus ut venenatis. Phasellus sed ante efficitur, porttitor
-              arcu vitae, viverra urna. Sed vestibulum dui et suscipit ultrices.
-              Nulla quis leo ac turpis tincidunt tempus a at odio. Morbi nisi
-              diam, posuere nec ullamcorper nec, venenatis sed ante. Aenean eget
-              viverra sapien. Donec blandit in neque et vestibulum. Donec erat
-              lorem, feugiat sed odio in, rhoncus ornare nisl. Nunc risus nisi,
-              tincidunt ut massa id, suscipit eleifend est. Maecenas imperdiet
-              viverra ex at euismod. Cras id viverra lacus. Nulla viverra
-              viverra leo, sit amet iaculis nisi aliquet id. Cras pretium dolor
-              odio, et viverra nulla semper et. Sed egestas urna vitae velit
-              tristique, vel vehicula velit ornare. Vestibulum ante ipsum primis
-              in faucibus orci luctus et ultrices posuere cubilia curae; Fusce
-              blandit urna a arcu tempus tincidunt. Nullam commodo, justo vel
-              consequat placerat, nibh enim molestie justo, ut interdum orci
-              libero ut nisi. Suspendisse luctus imperdiet varius. Donec leo
-              justo, fringilla eget venenatis sit amet, pulvinar ac diam. Duis
-              sapien augue, commodo quis finibus id, ullamcorper et mauris.
-              Praesent eu consectetur massa. Vivamus non urna malesuada, rhoncus
-              urna sit amet, dapibus tortor. Sed aliquet ante in aliquam
-              vestibulum. Curabitur in interdum purus. Sed porttitor, justo
-              vitae consectetur porttitor, mi risus faucibus nulla, a gravida
-              metus arcu cursus velit. Curabitur ut magna lacinia, euismod erat
-              vel, faucibus est. Nam mauris leo, sollicitudin ut mauris a,
-              tristique venenatis dui.
+              <h1 className="text-center bg-slate-400 text-white	py-3">
+                Modern Web
+              </h1>
+              <article>
+                <ul className="list-disc">
+                  {modernWeb.map((list, key) => (
+                    <li key={key} className="py-1">
+                      {list}
+                    </li>
+                  ))}
+                </ul>
+              </article>
             </section>
           </div>
         </section>
