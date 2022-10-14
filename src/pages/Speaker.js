@@ -15,15 +15,14 @@ const Speaker = () => {
         <div className="flex mt-5 justify-between w-1/2">
           <Avatar url={anand} key={1} userName="Anand">
             <p className="w-[30ch]">
-              A plain old React Developer with tiny expreinece of UI but with a
-              pinch of salt
+              An average coder. Who eats and sleeps on UI and has a bit of a
+              sense of humor with a pinch of salt.
             </p>
           </Avatar>
           <Avatar url={subash} key={2} userName="Subash">
             <p className="w-[30ch]">
-              An <b>automobile engineer</b> with passion for coding. From
-              JSpyder to Javascript a journey which I took to become{' '}
-              <em>Frontend Guru</em>.
+              An average coder with passion for coding. Who is trying his best
+              to be a UI developer.
             </p>
           </Avatar>
         </div>
