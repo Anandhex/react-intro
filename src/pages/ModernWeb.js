@@ -99,13 +99,7 @@ const ModernWeb = () => {
                 hit.
               </p>
               <h3 className="text-2xl font-bold mt-3">Issues with it?</h3>
-              <p className="mt-3">
-                The website no longer needs to look the same in different
-                browsers or devices with different screen sizes. With responsive
-                design, a website changes its form to fit any available space on
-                whatever screen. This technique is frequently practiced and has
-                become the norm on the Web.
-              </p>
+              <p className="mt-3">Let's park this topic for now</p>
             </Aside>
           </div>
         </section>
