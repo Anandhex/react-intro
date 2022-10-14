@@ -79,7 +79,7 @@ const ReactInGeneralWithCode = () => {
                 <li>Framer Motion - For animation.</li>
                 <li>Tailwind - For quirky CSS.</li>
                 <li>
-                  Our brains - For <b>logic</b>.
+                  Our brains - For <b>logic and creativity</b>.
                 </li>
               </ul>
             </div>
